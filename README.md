@@ -207,6 +207,8 @@ $ python examples/demo_1.py --tracking-method deepocsort
                                              botsort
 ```
 <details>
+<summary>Counting</summary>
+<details>
 <summary>Counting sources</summary>
 
 Tracking can be run on most video formats
