@@ -206,8 +206,7 @@ $ python examples/demo_1.py --tracking-method deepocsort
                                              bytetrack
                                              botsort
 ```
-<details>
-<summary>Counting</summary>
+
 <details>
 <summary>Counting sources</summary>
 
