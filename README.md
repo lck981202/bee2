@@ -192,7 +192,23 @@ $ python3 examples/val.py --yolo-model yolo_nas_s.pt --reid-model osnetx1_0_duke
 ```
   
 </details>
+
+<details>
+<summary>Counting method</summary>
+
+Demo_1 is the single-line method for show, Demo_1_hide is the single-line method for work
+Demo_2 is the Box method for show,, Demo_2_hide is the Box method for work
+
+```bash
+$ python examples/track.py --tracking-method deepocsort
+                                             strongsort
+                                             ocsort
+                                             bytetrack
+                                             botsort
+```
   
+</details>
+
 <details>
 <summary>Evolution</summary>
 
