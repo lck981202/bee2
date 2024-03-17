@@ -47,7 +47,7 @@ In inverse chronological order:
 
   </details>
 
-## Why using this tracking toolbox?
+## Why using this counting method?
 
 Everything is designed with simplicity and flexibility in mind. We don't hyperfocus on results on a single dataset, we prioritize real-world results. If you don't get good tracking results on your custom dataset with the out-of-the-box tracker configurations, use the `examples/evolve.py` script for tracker hyperparameter tuning.
 
