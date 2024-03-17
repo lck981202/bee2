@@ -1,0 +1,8 @@
+alpha_fixed_emb: 0.9217945107294758
+delta_t: 3
+max_age: 40
+min_hits: 3
+det_thresh: 0.1
+iou_threshold: 0.3
+asso_func: iou
+inertia: 0.2
