@@ -213,7 +213,7 @@ $ python examples/demo_1.py --tracking-method deepocsort
 Tracking can be run on most video formats
 
 ```bash
-$ python examples/track.py --source 0                               # webcam
+$ python examples/demo_1.py --source 0                               # webcam
                                     img.jpg                         # image
                                     vid.mp4                         # video
                                     path/                           # directory
