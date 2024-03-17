@@ -192,7 +192,7 @@ $ python3 examples/val.py --yolo-model yolo_nas_s.pt --reid-model osnetx1_0_duke
 ```
   
 </details>
-
+  </details>
 <details>
 <summary>Counting method</summary>
 
@@ -200,13 +200,28 @@ Demo_1 is the single-line method for show, Demo_1_hide is the single-line method
 Demo_2 is the Box method for show,, Demo_2_hide is the Box method for work
 
 ```bash
-$ python examples/track.py --tracking-method deepocsort
+$ python examples/demo_1.py --tracking-method deepocsort
                                              strongsort
                                              ocsort
                                              bytetrack
                                              botsort
 ```
-  
+<details>
+<summary>Counting sources</summary>
+
+Tracking can be run on most video formats
+
+```bash
+$ python examples/track.py --source 0                               # webcam
+                                    img.jpg                         # image
+                                    vid.mp4                         # video
+                                    path/                           # directory
+                                    path/*.jpg                      # glob
+                                    'https://youtu.be/Zgi9g1ksQHc'  # YouTube
+                                    'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
+```
+
+</details>  
 </details>
 
 <details>
