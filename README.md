@@ -43,7 +43,7 @@ In inverse chronological order:
 
 * [MOT metrics](https://github.com/cheind/py-motmetrics)
   
-* [Darklabel for MOT]([https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet/wiki/conf-thres-vs-MOT-metrics](https://github.com/darkpgmr/DarkLabel))
+* [Darklabel for MOT](https://github.com/darkpgmr/DarkLabel)
 
   </details>
 
