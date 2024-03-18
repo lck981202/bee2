@@ -82,7 +82,7 @@ pip install boxmot
 ```
 
 
-## YOLOv8 | YOLO-NAS | YOLOX examples
+## Tracking and Counting examples
 
 <details>
 <summary>Tracking</summary>
@@ -211,7 +211,7 @@ $ python examples/demo_1.py --tracking-method deepocsort
 <details>
 <summary>Counting sources</summary>
 
-Tracking can be run on most video formats
+Counting can be run on most video formats
 
 ```bash
 $ python examples/demo_1.py --source 0                               # webcam
