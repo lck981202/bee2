@@ -48,15 +48,14 @@ In inverse chronological order:
   </details>
 
 <details>
-<summary>datasets</summary>
+<summary>Datasets</summary>
 
 In inverse chronological order:
 
 * [honeybee detection training set](https://zenodo.org/records/10827406)
 
 * [test set for MOT](https://zenodo.org/records/10828561)
-  
-* [Darklabel for MOT](https://github.com/darkpgmr/DarkLabel)
+
 
   </details>
 
