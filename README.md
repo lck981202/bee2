@@ -47,6 +47,19 @@ In inverse chronological order:
 
   </details>
 
+<details>
+<summary>Experiments</summary>
+
+In inverse chronological order:
+
+* [Evaluation of the params evolved for first half of MOT17 on the complete MOT17](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet/wiki/Evaluation-of-the-params-evolved-for-first-half-of-MOT17-on-the-complete-MOT17)
+
+* [MOT metrics](https://github.com/cheind/py-motmetrics)
+  
+* [Darklabel for MOT](https://github.com/darkpgmr/DarkLabel)
+
+  </details>
+
 ## Why using this counting method?
 
 Everything is designed with simplicity and flexibility in mind. We don't hyperfocus on results on a single dataset, we prioritize real-world results. If you don't get good tracking results on your custom dataset with the out-of-the-box tracker configurations, use the `examples/evolve.py` script for tracker hyperparameter tuning.
