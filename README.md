@@ -191,18 +191,6 @@ python examples/track.py --source ... --save-txt
 
 </details>
 
-</details>
-  
-<details>
-<summary>Evaluation</summary>
-
-Evaluate a combination of detector, tracking method and ReID model on standard MOT dataset or you custom one by
-
-```bash
-$ python3 examples/val.py --yolo-model yolo_nas_s.pt --reid-model osnetx1_0_dukemtcereid.pt --tracking-method deepocsort --benchmark MOT16
-                          --yolo-model yolox_n.pt    --reid-model osnet_ain_x1_0_msmt17.pt  --tracking-method ocsort     --benchmark MOT17 
-                          --yolo-model yolov8s.pt    --reid-model lmbn_n_market.pt          --tracking-method strongsort --benchmark <your-custom-dataset>
-```
   
 </details>
   </details>
@@ -236,21 +224,6 @@ $ python examples/demo_1.py --source 0                               # webcam
 ```
 
 </details>  
-</details>
-
-<details>
-<summary>Evolution</summary>
-
-We use a fast and elitist multiobjective genetic algorithm for tracker hyperparameter tuning. By default the objectives are: HOTA, MOTA, IDF1. Run it by
-
-```bash
-$ python examples/evolve.py --tracking-method strongsort --benchmark MOT17 --n-trials 100  # tune strongsort for MOT17
-                            --tracking-method ocsort     --benchmark <your-custom-dataset> --objective HOTA # tune ocsort for maximizing HOTA on your custom tracking dataset
-```
-
-The set of hyperparameters leading to the best HOTA result are written to the tracker's config file.
-  
-</details>
 
 
 ## Custom object detection model example
