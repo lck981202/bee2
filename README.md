@@ -1,4 +1,4 @@
-# Real-time multi-object, segmentation and pose tracking using Yolov8 | Yolo-NAS | YOLOX with DeepOCSORT and LightMBN
+# Honeybee in-and-out activity counting based on YOLOv8 and boxmot
 
 
 <div align="center">
