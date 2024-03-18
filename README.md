@@ -52,9 +52,9 @@ In inverse chronological order:
 
 In inverse chronological order:
 
-* [honeybee detection training set](https://zenodo.org/records/10827406))
+* [honeybee detection training set](https://zenodo.org/records/10827406)
 
-* [MOT metrics](https://github.com/cheind/py-motmetrics)
+* [test set for MOT](https://zenodo.org/records/10828561)
   
 * [Darklabel for MOT](https://github.com/darkpgmr/DarkLabel)
 
