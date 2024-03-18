@@ -62,7 +62,7 @@ In inverse chronological order:
 
 ## Why using this counting method?
 
-Everything is designed with simplicity and flexibility in mind. We don't hyperfocus on results on a single dataset, we prioritize real-world results. If you don't get good tracking results on your custom dataset with the out-of-the-box tracker configurations, use the `examples/evolve.py` script for tracker hyperparameter tuning.
+According to the relative position of the camera and the entrance of the bee colony and the movement of the bees, some honey bees enter the beehive from below and from the side. Setting the detection line only above the entrance and exit cannot solve the above problem. Therefore, we changed the detection line to a detection box and named the method as box method which solved the problem of some bees entering the beehive from other directions. The box method also brings a problem that some bees only pass through the detection box and do not actually enter the hive.
 
 ## Installation
 
