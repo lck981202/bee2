@@ -48,11 +48,11 @@ In inverse chronological order:
   </details>
 
 <details>
-<summary>Experiments</summary>
+<summary>datasets</summary>
 
 In inverse chronological order:
 
-* [Evaluation of the params evolved for first half of MOT17 on the complete MOT17](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet/wiki/Evaluation-of-the-params-evolved-for-first-half-of-MOT17-on-the-complete-MOT17)
+* [honeybee detection training set](https://zenodo.org/records/10827406))
 
 * [MOT metrics](https://github.com/cheind/py-motmetrics)
   
